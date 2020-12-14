@@ -1,4 +1,4 @@
-/*!
+sap/*!
  * ScrollMagic v2.0.8 (2020-08-14)
  * The javascript library for magical scroll interactions.
  * (c) 2020 Jan Paepke (@janpaepke)
@@ -32,7 +32,7 @@
 	} else if (typeof exports === 'object') {
 		// CommonJS
 		// Loads whole gsap package onto global scope.
-		var gsap = require("gsap/dist/gsap") || require("gsap");
+		var gsap = require("gsap");
 
 		// TweenMax/TimelineMax will be global in v2. In v3, they will be on the gsap object
 		factory(require('scrollmagic'), gsap, TweenMax || gsap, TimelineMax || gsap);
